@@ -1,0 +1,55 @@
+@font-face {
+    font-family: 'MemphisRiver';
+    src: url(Memphis\ River.otf);
+}
+@font-face {
+    font-family: Roblox;
+    src: url(Roblox\ Font\ Regular.ttf);
+    font-weight: normal;
+}
+@font-face {
+    font-family: Roblox;
+    src: url(Roblox\ Font\ Bold.ttf);
+    font-weight: bold;
+}
+@font-face {
+    font-family: Roseritta;
+    src: url(Roseritta.ttf);
+}
+body{
+    background: linear-gradient(
+        to right,
+        #26d0ce,
+        #1a2980
+    );
+}
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h1{
+    font-family: 'MemphisRiver';
+    text-align: center;
+    font-size: 4rem;
+    margin-bottom: 1rem;
+}
+h2{
+    font-family: 'Roblox';
+    text-align: center;
+    font-weight: bold;
+    font-size: 2rem;
+    letter-spacing: 5px;
+    margin: 1rem;
+}
+p{
+    font-family: 'Roseritta';
+    color: #2C3333;
+    font-size: 1.4rem;
+    font-weight: normal;
+    width: 65%;
+    line-height: 2rem;
+    text-align: center;
+    letter-spacing: 2px;
+    font-weight: 700;
+}

@@ -1,0 +1,114 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Charlie Chaplin</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .box {
+            margin: 5px;
+            background-color: red;
+            border: 1px solid black;
+        }
+
+        .fifty-percent {
+            width: 50%;
+        }
+
+        .one-hundred-percent {
+            width: 100%;
+        }
+
+        .parent {
+            width: 135px;
+            border: 1px solid black;
+        }
+
+        .fifty-vw {
+            width: 50vw;
+        }
+
+        .twentyfive-vh {
+            height: 25vh;
+        }
+
+        .one-rem {
+            font-size: 1rem
+        }
+
+        .one-em {
+            font-size: 1em;
+        }
+
+        .two-rem {
+            font-size: 2rem;
+        }
+
+        .two-em {
+            font-size: 2em;
+        }
+        .container{
+            font-size: 30px;
+        }
+        .box-icon{
+            background-color: red;
+            display: inline-block;
+        }
+        .rem1{
+            width: 1rem;
+            height: 1rem;
+        }
+        .em1{
+            width: 1em;
+            height: 1em;
+        }
+        .em2{
+            width: 2em;
+            height: 2em;
+        }
+        .rem2{
+            width: 2rem;
+            height: 2rem;
+        }
+        .coco{
+            font-size: 30px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box fifty-percent">50%</div>
+    <div class="box one-hundred-pixels">100%</div>
+    <div class="box fifty-vw">50vw</div>
+    <div class="box twentyfive-vh">25vh</div>
+    <hr>
+    <div class="parent">
+        <div class="box fifty-percent">50%</div>
+        <div class="box fifty-vw">50vw</div>
+        <div class="box one-hundred-pixels">100%</div>
+    </div>
+
+    <p class="one-rem">1rem</p>
+    <p class="one-em">1em</p>
+    <p class="two-rem">2rem</p>
+    <p class="two-em">2em</p>
+    <hr>
+    <div class="container">
+        <p class="one-rem">1rem</p>
+        <p class="one-em">1em</p>
+        <p class="two-rem">2rem</p>
+        <p class="two-em">2em</p>
+    </div>
+
+    <div><span class="box-icon rem1"></span><span class="one-rem">1rem</span></div>
+    <div><span class="box-icon em1"></span><span class="one-em">1em</span></div>
+    <div><span class="box-icon rem2"></span><span class="two-rem">2rem</span></div>
+    <div class="coco"><span class="box-icon em2"></span><span class="two-em">2em</span></div>
+    <hr>
+</body>
+
+</html>
